@@ -72,8 +72,8 @@ public class LoanCalcViewController implements Initializable  {
 		lblTotalPayments.setText(String.valueOf(L.totalPayments()));
 		totalInterest.setText(String.valueOf(df.format(L.totalInterest())));
 		System.out.println(localDate);
-		/*
-		 * for(int i = 0; i < L.totalPayments(); i++) { Payment p =
+		
+		 /* for(int i = 0; i < L.totalPayments(); i++) { Payment p =
 		 * L.loanPayments.get(i); System.out.println(p.getPaymentNbr() + "  |  " +
 		 * p.getDueDate() + "  |  "+ p.getPaymentAmt() + "  |  " + p.getAddPayment() +
 		 * "  |  " + p.getInterestAmt() + "  |  " + p.getPrincipleAmt() + "  |  " +
